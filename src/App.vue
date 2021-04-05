@@ -1,16 +1,5 @@
 <template>
-  <div id="app" class="container-fluid padding-none" style="padding: 0">
-    <HelloWorld />
-  </div>
+  <v-app>
+    <router-view />
+  </v-app>
 </template>
-
-<script>
-import HelloWorld from "./components/HelloWorld.vue";
-
-export default {
-  name: "App",
-  components: {
-    HelloWorld,
-  },
-};
-</script>

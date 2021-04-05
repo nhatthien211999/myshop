@@ -1,7 +1,7 @@
 <template>
-  <div style="background-color: #fff; padding:0">
-    <nav class="navbar navbar-fixed-top navbar-expand-lg">
-      <div class="container-fluid">
+  <div style="background-color: #000; padding:0; color: white">
+    <nav class="navbar navbar-fixed-top navbar-expand-lg" style="padding: 0">
+      <div class="container-fluid" style="background-color: #fff; padding:10px">
         <img
           class="navbar-brand"
           src="../../public/assets/images/logo.png"
@@ -33,7 +33,9 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Đặt Bàn</a>
+              <a class="nav-link" href="#"
+                ><router-link to="/about">Đặt bàn</router-link></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#">Hoa</a>
@@ -69,7 +71,7 @@
               data-whatever="@fat"
               style="margin: 15px"
             >
-              <i class="ti-search"></i>
+              <i class="ti-search" style="color: #000"></i>
             </a>
 
             <div
@@ -79,6 +81,7 @@
               role="dialog"
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
+              style="padding: 0"
             >
               <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -118,14 +121,22 @@
                     >
                       Đóng
                     </button>
-                    <button type="button" class="btn btn-primary">
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      style="color: #000"
+                    >
                       Tìm kiếm
                     </button>
                   </div>
                 </div>
               </div>
             </div>
-            <button type="button" class="btn btn-outline-primary">
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              style="color: #000"
+            >
               Đăng Nhập
             </button>
           </div>
@@ -239,7 +250,10 @@
                 và trải nghiệm tốt hơn
               </p>
             </div>
-            <div class="col-md-7  my-custom-scrollbar" style="padding: 0">
+            <div
+              class="col-md-7  my-custom-scrollbar"
+              style="padding: 0; margin"
+            >
               <ListProducts></ListProducts>
             </div>
           </div>
@@ -247,7 +261,7 @@
       </div>
     </session>
     <section id="delivery">
-      <div class="container" style="margin-top:30px;">
+      <div class="container" style="margin-top:30px; color: #000">
         <div class="row">
           <h1>Đơn hàng của bạn sẽ được bảo quản như thế nào?</h1>
           <p>
@@ -261,7 +275,7 @@
         </div>
       </div>
     </section>
-    <section id="payment" style="margin-top:30px;">
+    <section id="payment" style="margin-top:30px; color: #000">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
@@ -292,7 +306,7 @@
         </div>
       </div>
     </section>
-    <section id="intro" style="margin-top:30px;">
+    <section id="intro" style="margin-top:30px; color: #000">
       <div class="container">
         <div class="row">
           <div class="col-md-7">

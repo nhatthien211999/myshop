@@ -14,7 +14,7 @@
       </div>
     </div>
     <!-- ------------------------------------ -->
-    <div class="row products">
+    <div class="products">
       <p style="float:left; padding: 0 52% 0 30px">Sản phẩm mua nhiều nhất</p>
       <a href="#">xem tất cả</a>
 
@@ -33,7 +33,7 @@
       </div>
     </div>
 
-    <div class="row products">
+    <div class="products">
       <p style="float:left; padding: 0 63% 0 30px">Phiếu giảm giá</p>
       <a href="#">xem tất cả</a>
 
@@ -52,7 +52,7 @@
       </div>
     </div>
 
-    <div class="row products">
+    <div class="row products" style="margin: 0">
       <div class="col-md-2" style="text-align: center">
         <a href="#">Gần tôi</a>
       </div>
@@ -65,16 +65,16 @@
       <div class="col-md-2" style="text-align: center">
         <a href="#">Nổi bật</a>
       </div>
-      <div class="col-md-4" style="text-align: center">
+      <div class="col-md-4" style="text-align: center; margin-bottom: 20px">
         <select name="" id="">
           <option>quận/huyện</option>
           <option>tp hcm</option>
           <option>hà nội</option>
         </select>
       </div>
-      <div class="col-12" style="margin: 15px;">
+      <div class="col-12">
         <div
-          style="margin-bottom:5px;"
+          style="margin-bottom: 5px;"
           v-for="(product, index) in products"
           :key="index"
         >
