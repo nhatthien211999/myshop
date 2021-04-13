@@ -136,7 +136,7 @@
               class="btn btn-outline-primary"
               style="color: #000"
             >
-              Đăng Nhập
+              <router-link to="/login">Đăng Nhập</router-link>
             </button>
           </div>
         </div>
