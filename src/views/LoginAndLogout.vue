@@ -52,7 +52,7 @@
                       </v-card-text>
                       <div class="text-center mt-3" style="padding: 10px">
                         <v-btn rounded color="blue lighten-2" dark
-                          >Đăng ký</v-btn
+                          >Đăng Nhập</v-btn
                         >
                       </div>
                     </v-col>
