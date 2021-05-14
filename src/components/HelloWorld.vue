@@ -1,8 +1,8 @@
 <template>
   <div style="background-color: #000; padding:0; color: white">
     <TopBar></TopBar>
-    <session id="content">
-      <div class="banner">
+    <session id="content" >
+      <div class="banner" >
         <div class="container">
           <div class="row">
             <div class="col-md-5" style="padding: 30px">

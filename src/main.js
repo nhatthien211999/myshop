@@ -11,7 +11,10 @@ import router from './router'
 import VueCarousel from 'vue-carousel';
 import vuetify from './plugins/vuetify';
 
-Vue.use(BootstrapVue, VueRouter, VueCarousel)
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+
+Vue.use(VueAxios, axios, BootstrapVue, VueRouter, VueCarousel)
 
 Vue.config.productionTip = false
 
